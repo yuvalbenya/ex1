@@ -135,7 +135,7 @@ public class WGraph_Algo implements weighted_graph_algorithms{
         List<node_info> path = new LinkedList<>();
         node_info start = g.getNode(src);
         double dist = shortestPathDist(src,dest);
-         if (dist == -1) return n ull;
+         if (dist == -1) return null;
          else if(dist == 0){ path.add(start); return path;}
         return Buildlist(path,dest,src);
    }
